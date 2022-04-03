@@ -1,5 +1,5 @@
 # BingoBot
-Discord.js bot for Bingo
+Discord.js bot for Bingo, work in progress
 
 ## Introduction
 Bingo Bot is a sad attempt to generate a Bingo for our McKenzie Discord.
