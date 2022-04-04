@@ -1,10 +1,14 @@
-name: ESLint
+name: Github Action
 
-on: push
+on: 
+  pull_request:
+    types: [opened, reopened, synchronize]
 
 jobs:
-  build:
+  AnnotateLinter:
+    name: Run quality analysis
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
     - uses: actions/checkout@v2
     - name: Install modules
